@@ -21,13 +21,13 @@ public class Vehicle {
 
     public void steer(int direction) {
         currentDirection += direction;
-        System.out.println("Vehicle.steer(): Steering at " + currentDirection + "degrees.");
+        System.out.println("Vehicle.steer(): Steering at " + currentDirection + " degrees.");
     }
 
     public void move(int velocity, int derection) {
         currentVelocity = velocity;
         currentDirection = derection;
-        System.out.println("Vehicle move " + currentVelocity + "in derection" + currentDirection);
+        System.out.println("Vehicle move " + currentVelocity + " in derection " + currentDirection);
     }
 
     public String getName() {
